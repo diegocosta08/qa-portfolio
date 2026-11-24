@@ -1,0 +1,6 @@
+{
+  "emailValido": "usuario@teste.com",
+  "senhaValida": "user123",
+  "emailInvalido": "usuario@teste.com",
+  "senhaInvalida": "senhaerrada"
+}

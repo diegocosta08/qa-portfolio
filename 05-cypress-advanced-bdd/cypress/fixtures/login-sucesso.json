@@ -1,0 +1,8 @@
+{
+  "success": true,
+  "token": "fake-jwt-token",
+  "redirect": "/dashboard.html",
+  "usuario": {
+    "email": "usuario@teste.com"
+  }
+}

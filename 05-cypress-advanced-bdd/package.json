@@ -1,0 +1,26 @@
+{
+  "name": "hub-leitura-e2e",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cypress:open": "cypress open"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^26.0.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.8",
+    "@faker-js/faker": "^10.4.0",
+    "cypress": "^15.14.1",
+    "esbuild": "^0.28.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "e2e": {
+      "stepDefinitions": "cypress/e2e/step_definitions/**/*.js"
+    }
+  }
+}
